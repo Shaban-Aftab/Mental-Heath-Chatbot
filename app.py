@@ -17,7 +17,7 @@ st.markdown("A supportive, non-judgmental AI fine-tuned on empathetic dialogues.
 @st.cache_resource
 def load_bot():
     # TODO: Replace 'YourUsername' with your actual Hugging Face profile name!
-    model_id = "YourUsername/mental-health-support-bot" 
+    model_id = "shabanaftab01/mental-health-support-bot" 
     
     st.sidebar.info("Downloading model from Hugging Face... this takes a minute on first boot!")
     
